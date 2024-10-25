@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.bg {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+  background-size: cover;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.input-title {
+  width: 300px;
+  height: 30px;
+  padding-left: 15px;
+  border-style: solid;
+}
+.add-btn {
+  background-color: #8b5cf6;
+  border-width: 0;
+  color: #ffffff;
+  height: 30px;
+  width: 50px;
+  font-size: 12px;
+  padding: 3px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+}
+.default-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.appointments-starred {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.starred-btn {
+  width: 80px;
+  height: 30px;
+  border-radius: 20px;
+  border-width: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+  color: #9897f0;
+}
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+.title-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom:20px;
+}
